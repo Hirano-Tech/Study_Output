@@ -12,7 +12,7 @@
 |:------:|--------------|-----| 
 |   id   | int UNSIGNED | PRIMARY KEY，AUTO_INCREMENT，NOT NULL |
 |  name  | varchar(255) | NOT NULL |
-|  url   | varchar(255) | NOT NULL |
+|  url   | varchar(255) | NOT NULL，UNIQUE |
 
 ### ● Docker を学習し、開発環境をリニューアルしよう！
 
